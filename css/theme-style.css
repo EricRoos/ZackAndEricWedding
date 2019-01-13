@@ -19,7 +19,7 @@
 	1. General Styles
 ================================================================== */
 body{
-	color:#7b7571;
+	color:white;
 	font-family: 'Open Sans', sans-serif;
 	font-weight:300;
 }
@@ -153,6 +153,7 @@ section.img-bg-4{
 	background-size:cover;
 }
 section.img-bg-5{
+  padding: 150px 0px;
 	background:url(../img/bg-5.jpg) no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
@@ -337,8 +338,8 @@ ul.names li{
     -moz-border-radius:25px;
     -webkit-border-radius:25px;
 	margin:5px;
-	border: 4px solid #7b7571;
-	background: #7b7571;
+	border: 4px solid white;
+	background: white;
 }
 .social-icons a:hover{
 	border: 4px solid #F9667E;
@@ -592,7 +593,7 @@ a.mfp-image:hover{
     margin-top: -27px;
 }
 .mfp-title, .mfp-counter{
-    color: #7b7571;
+    color: white;
     font-size: 18px;
 }
    
@@ -619,17 +620,17 @@ a.mfp-image:hover{
   opacity: 0;
 }
 .mfp-arrow-right::after, .mfp-arrow-right .mfp-a {
-    border-left: 17px solid #7b7571;
+    border-left: 17px solid white;
 }
 .mfp-arrow-left::after, .mfp-arrow-left .mfp-a {
-    border-right: 17px solid #7b7571;
+    border-right: 17px solid white;
 }
 .mfp-close {
 	font-size: 52px;
 	top: -10px;
 }
 .mfp-image-holder .mfp-close, .mfp-iframe-holder .mfp-close {
-    color: #7b7571;
+    color: white;
 }
 /* ==================================================================
 	9. Section - Featured People
@@ -667,7 +668,7 @@ a.mfp-image:hover{
   height: auto;
 }
 .owl-theme .owl-controls .owl-page span {
-    background: #7b7571;
+    background: white;
 }
 .owl-theme .owl-controls .owl-page.active span, .owl-theme .owl-controls.clickable .owl-page:hover span {
     background: #f9667e;
