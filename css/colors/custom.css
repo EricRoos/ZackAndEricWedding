@@ -1,11 +1,8 @@
-section#home{
+.text-white{
   color: white;
 }
 body{
-	color:#7b7571;
-}
-.img-bg-1, .img-bg-2, .img-bg-3, .img-bg-4. #home{
-  color: white !important;
+	color: #7b7571;
 }
 .btn-primary,
 .btn-primary.btn-bordered:focus,
