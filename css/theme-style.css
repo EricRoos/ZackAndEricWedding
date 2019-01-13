@@ -141,22 +141,26 @@ section.img-bg-2{
 	background-attachment:fixed;
 	background-size:cover;
 	color:#FFF;
+  background-position: center center;
 }
 section.img-bg-3{
 	background:url(../img/bg-3.jpg) no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
+  background-position: center center;
 }
 section.img-bg-4{
 	background:url(../img/bg-4.jpg) no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
+  background-position: center center;
 }
 section.img-bg-5{
-  padding: 150px 0px;
+  padding: 200px 0px;
 	background:url(../img/bg-5.jpg) no-repeat;
 	background-attachment:fixed;
 	background-size:cover;
+  background-position: center center;
 }
 
 /* ==================================================================
