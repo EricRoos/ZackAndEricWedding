@@ -226,7 +226,7 @@ ul.names li{
 	display: inline-block;
 }
 .circle{
-	background: #F9667E;
+	background: #990033;
 	width: 100px;
 	height: 100px;
 	text-align: center;
@@ -244,7 +244,7 @@ ul.names li{
 }
 .date span{
 	font-size:80px;
-	border-bottom:solid 2px #F9667E;
+	border-bottom:solid 2px #990033;
 	line-height:1em;
 }
 .hour{
@@ -342,8 +342,8 @@ ul.names li{
 	background: white;
 }
 .social-icons a:hover{
-	border: 4px solid #F9667E;
-	background: #F9667E;
+	border: 4px solid #990033;
+	background: #990033;
 }
 
 /* ==================================================================

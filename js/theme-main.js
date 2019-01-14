@@ -35,10 +35,10 @@ $(document).ready(function() {
 		bg_width: 0.3,
 		circle_bg_color: '#7b7571',
 		time: {
-			Days: { color: '#f9667e' },
-			Hours: { color: '#f9667e' },
-			Minutes: { color: '#f9667e' },
-			Seconds: { color: '#f9667e' }
+			Days: { color: '#990033' },
+			Hours: { color: '#990033' },
+			Minutes: { color: '#990033' },
+			Seconds: { color: '#990033' }
 		},
 		count_past_zero: false
 	});
