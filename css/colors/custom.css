@@ -1,6 +1,10 @@
 .text-white{
   color: white;
 }
+
+.navy-background {
+  background-color: #40588c;
+}
 body{
 	color: #7b7571;
 }
