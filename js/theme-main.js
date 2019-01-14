@@ -94,12 +94,19 @@ $(document).ready(function() {
 			$('#fullscreenloading').show();
 			$('#boxedResult').show();
 			$('#sendResult').html('<div class="uil-rolling-css"><div><div></div><div></div></div></div>');
+      var data = {}
+      Form.serializeArray().forEach(function(input){
+        data[input.name] = input.value;
+      });
 			$.ajax({
-				type: 'POST',
-				url: 'send_form.php',
-				data: Form.serialize(),
+				type: 'PUT',
+        dataType: 'JSON',
+        contentType:"application/json; charset=utf-8",
+				url: 'http://localhost:4567/rsvps',
+        crossDomain: true,
+				data: JSON.stringify({ rsvp: data }),
 				success: function(msg){
-					$('#sendResult').html(msg)
+					$('#sendResult').html('Thanks!')
 				},
 				error: function(){
 					$('#sendResult').html('<img src="img/form-icon-error.png"/><br/><span class="title error">Sorry!</span><br/>Your data has not been sent. Please try again.<br /><strong>Error: #AJ001</strong><br /><br /><button class="btn btn-default BtnCloseResult" type="button">Close</button>');
