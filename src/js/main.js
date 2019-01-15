@@ -1,0 +1,11 @@
+import 'jquery';
+import '../../js/jquery.nav.js';
+import '../../js/jquery.sticky.js';
+import '../../js/bootstrap.min.js';
+import '../../js/theme-main.js'
+import '../../libs/owl-carousel/owl.carousel.min.js';
+import '../../libs/stellar/jquery.stellar.min.js';
+import '../../libs/TimeCircles-countdown/TimeCircles.js';
+import '../../libs/gallery-grid/gallery-grid.js';
+import '../../libs/magnific-popup/jquery.magnific-popup.min.js';
+import '../../libs/bootstrap-validator/validator.min.js';
