@@ -163,7 +163,7 @@ $(document).ready(function() {
   /*==============================
 		8. Timeline
 	==============================*/
-  function buildTimelineEntry(entry){
+  function buildTimelineEntry(entry, inverted){
     var month = entry.month;
     var day = entry.day;
     var year = entry.year;
@@ -171,7 +171,8 @@ $(document).ready(function() {
     var title = entry.title;
     var story = entry.story;
     var out = "";
-    out += '<li>';
+    var liClass = inverted ? 'timeline-inverted' : '';
+    out += '<li class="'+liClass+'">';
     out += '  <div class="timeline-badge"><i class="fa fa-heart" aria-hidden="true"></i></div>';
     out += '  <div class="timeline-panel">';
     out += '    <div class="timeline-heading">';
@@ -187,7 +188,9 @@ $(document).ready(function() {
     return out;
   }
   $.get("/timeline.json", function(data){
-    var html = data.map(buildTimelineEntry);
+    var html = data.map(function (entry, idx){
+      return buildTimelineEntry(entry, idx % 2 != 0);
+    });
     $(".timeline").html(html + $(".timeline").html());
   }).catch( function(err){
     console.error(err);

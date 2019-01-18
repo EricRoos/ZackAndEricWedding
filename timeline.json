@@ -6,5 +6,29 @@
     "img": "/img/story/story-img-02.jpg",
     "title": "Cruise to Mexico",
     "descrpition": "lorem"
+  },
+  {
+    "month": "Feb",
+    "day": "18",
+    "year": "2016",
+    "img": "/img/story/DSC_0244.JPG",
+    "title": "Trip to Colorado",
+    "descrpition": "lorem"
+  },
+  {
+    "month": "Jun",
+    "day": "8",
+    "year": "2017",
+    "img": "/img/story/cabo_wedding2.JPG",
+    "title": "Wedding in Cabo",
+    "descrpition": "lorem"
+  },
+  {
+    "month": "Sept",
+    "day": "14",
+    "year": "2018",
+    "img": "/img/story/engagement.JPG",
+    "title": "Engaged in NYC",
+    "descrpition": "lorem"
   }
 ]

@@ -373,7 +373,7 @@ section#frase i{
 	position: absolute;
 	content: " ";
 	width: 3px;
-	background-color:rgba(0, 0, 0, 0.09);
+	background-color: white;
 	left: 50%;
 	margin-left: -1.5px;
 }
@@ -410,7 +410,7 @@ section#frase i{
 	padding: 20px 20px 50px 20px;
 	position: relative;
 	background: transparent;
-	border: 3px solid #ededed;
+	border: 3px solid white;
 }
 
 .timeline > li > .timeline-panel:before {
@@ -419,8 +419,8 @@ section#frase i{
 	right: -18px;
 	display: inline-block;
 	border-top: 17px solid transparent;
-	border-left: 17px solid #e8e8e8;
-	border-right: 0 solid #e8e8e8;
+	border-left: 17px solid white;
+	border-right: 0 solid white;
 	border-bottom: 18px solid transparent;
 	content: " ";
 }
