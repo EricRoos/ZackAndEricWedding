@@ -159,5 +159,37 @@ $(document).ready(function() {
 		items : 3,
 		lazyLoad : true,
 		navigation : false
-	}); 
+  });
+  /*==============================
+		8. Timeline
+	==============================*/
+  function buildTimelineEntry(entry){
+    var month = entry.month;
+    var day = entry.day;
+    var year = entry.year;
+    var img = entry.img;
+    var title = entry.title;
+    var story = entry.story;
+    var out = "";
+    out += '<li>';
+    out += '  <div class="timeline-badge"><i class="fa fa-heart" aria-hidden="true"></i></div>';
+    out += '  <div class="timeline-panel">';
+    out += '    <div class="timeline-heading">';
+    out += '      <h2 class="timeline-title">'+month+' <span>'+day+'</span> '+year+'</h2>';
+    out += '    </div>';
+    out += '    <div class="timeline-body text-center">';
+    out += '      <img src="'+img+'" class="img-responsive" alt="Our Story"/>';
+    out += '      <h2 class="timeline-title">'+title+'</h2>';
+    out += '      <p>'+story+'</p>';
+    out += '    </div>';
+    out += '  </div>';
+    out += '</li>';
+    return out;
+  }
+  $.get("/timeline.json", function(data){
+    var html = data.map(buildTimelineEntry);
+    $(".timeline").html(html + $(".timeline").html());
+  }).catch( function(err){
+    console.error(err);
+  });
 });
