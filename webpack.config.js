@@ -1,8 +1,9 @@
 var path = require('path');
 var webpack = require('webpack')
-const HtmlWebpackPlugin = require('html-webpack-plugin')
-const CopyWebpackPlugin = require('copy-webpack-plugin')
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   mode: 'development',
@@ -12,6 +13,7 @@ module.exports = {
     filename: 'app.bundle-[hash].js'
   },
   plugins: [
+    new CleanWebpackPlugin(['./dist'], {}),
     new webpack.ProvidePlugin({
       $: "jquery",
       jQuery: "jquery",
