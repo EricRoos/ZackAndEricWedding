@@ -1,3 +1,13 @@
+import '../../css/theme-style.css';
+import '../../css/bootstrap.min.css';
+import '../../libs/TimeCircles-countdown/TimeCircles.css';
+import '../../libs/owl-carousel/owl.carousel.css';
+import '../../libs/owl-carousel/owl.theme.css';
+import '../../libs/magnific-popup/magnific-popup.css';
+import '../../libs/loading/rolling.css';
+import '../../css/font-awesome.min.css';
+import '../../css/theme-style.css';
+import '../../css/colors/custom.css';
 import 'jquery';
 import '../../js/jquery.nav.js';
 import '../../js/jquery.sticky.js';
