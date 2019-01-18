@@ -137,24 +137,24 @@ section{
 	padding:120px 0px;
 }
 section.img-bg-2{
-	background:url(../img/bg-2.jpg) no-repeat;
+	background:url(../img/rsz_bg-2.jpg) no-repeat;
 	background-size:cover;
 	color:#FFF;
   background-position: center center;
 }
 section.img-bg-3{
-	background:url(../img/bg-3.jpg) no-repeat;
+	background:url(../img/rsz_bg-3.jpg) no-repeat;
 	background-size:cover;
   background-position: center center;
 }
 section.img-bg-4{
-	background:url(../img/bg-4.jpg) no-repeat;
+	background:url(../img/rsz_bg-4.jpg) no-repeat;
 	background-size:cover;
   background-position: center center;
 }
 section.img-bg-5{
   padding: 200px 0px;
-	background:url(../img/bg-5.jpg) no-repeat;
+	background:url(../img/rsz_bg-5.jpg) no-repeat;
 	background-size:cover;
   background-position: center center;
 }
@@ -206,7 +206,7 @@ section.img-bg-5{
 	3. Section - Home (banner)
 ================================================================== */
 section#home{
-	background:url(../img/bg-1a.jpg) no-repeat;
+	background:url(../img/rsz_bg-1a.jpg) no-repeat;
 	background-size:cover;
 	text-align:center;
 	height:800px;
