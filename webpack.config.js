@@ -2,6 +2,7 @@ var path = require('path');
 var webpack = require('webpack')
 const HtmlWebpackPlugin = require('html-webpack-plugin')
 const CopyWebpackPlugin = require('copy-webpack-plugin')
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
 module.exports = {
   mode: 'development',
@@ -17,12 +18,19 @@ module.exports = {
       "window.jQuery": "jquery"
     }),
     new HtmlWebpackPlugin({
+      hash: true,
+      inject: false,
       template: './index.html'  
     }),
     new CopyWebpackPlugin([
       './img/**/*',
       './*.json'
-    ])
+    ]),
+    new MiniCssExtractPlugin({
+      // Options similar to the same options in webpackOptions.output
+      // both options are optional
+      filename: "style.[hash].css",
+    })
   ],
   module: {
     rules: [
@@ -34,7 +42,7 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        use: ['style-loader', 'css-loader'],
+        use:  [  'style-loader', MiniCssExtractPlugin.loader, 'css-loader']
       },
       {
         test: /\.m?js$/,
