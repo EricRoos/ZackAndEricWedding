@@ -130,8 +130,8 @@ h1 span, h2 span, h3 span, h4 span, h5 span, h6 span{
 }
 .img-circle{
 	border:20px solid #FFF;
+  max-height: 450px;
 }
-
 /*Section General*/
 section{
 	padding:120px 0px;

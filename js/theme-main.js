@@ -1,3 +1,4 @@
+import timeline from '../timeline.json';
 /*	Table OF Contents
 ==========================
 1. Nav - Sticky
@@ -187,12 +188,8 @@ $(document).ready(function() {
     out += '</li>';
     return out;
   }
-  $.get("/timeline.json", function(data){
-    var html = data.map(function (entry, idx){
-      return buildTimelineEntry(entry, idx % 2 != 0);
-    });
-    $(".timeline").html(html + $(".timeline").html());
-  }).catch( function(err){
-    console.error(err);
+  var html = timeline.map(function (entry, idx){
+    return buildTimelineEntry(entry, idx % 2 != 0);
   });
+  $(".timeline").html(html + $(".timeline").html());
 });
