@@ -170,7 +170,7 @@ $(document).ready(function() {
     var year = entry.year;
     var img = entry.img;
     var title = entry.title;
-    var story = entry.story;
+    var story = entry.description;
     var out = "";
     var liClass = inverted ? 'timeline-inverted' : '';
     out += '<li class="'+liClass+'">';
@@ -189,6 +189,7 @@ $(document).ready(function() {
     return out;
   }
   var html = timeline.map(function (entry, idx){
+    console.log(entry);
     return buildTimelineEntry(entry, idx % 2 != 0);
   });
   $(".timeline").html(html + $(".timeline").html());

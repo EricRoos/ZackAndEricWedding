@@ -5,7 +5,7 @@
     "year": "2015",
     "img": "/img/story/story-img-02.jpg",
     "title": "Cruise to Mexico",
-    "descrpition": "Our first real vacation together! Got on a Carnvial Cruise ship in a cold Galveston to go to Cozumel for a few days."
+    "description": "Our first real vacation together! Got on a Carnvial Cruise ship in a cold Galveston to go to Cozumel for a few days."
   },
   {
     "month": "Feb",
@@ -13,7 +13,7 @@
     "year": "2016",
     "img": "/img/story/rsz_dsc_0244.jpg",
     "title": "Trip to Colorado",
-    "descrpition": "Discovered our love for this magical place and have been going back a few times a year ever since."
+    "description": "Discovered our love for this magical place and have been going back a few times a year ever since."
   },
   {
     "month": "Jun",
@@ -21,7 +21,7 @@
     "year": "2017",
     "img": "/img/story/rsz_cabo_wedding2.jpg",
     "title": "Wedding in Cabo",
-    "descrpition": "Spent a week in Cabo San Lucas to celebrate our friend Sarah's wedding. "
+    "description": "Spent a week in Cabo San Lucas to celebrate our friend Sarah's wedding. "
   },
   {
     "month": "Sept",
@@ -29,6 +29,6 @@
     "year": "2018",
     "img": "/img/story/rsz_engagement.jpg",
     "title": "Engaged in NYC",
-    "descrpition": "After Eric spent the first part of the week working in NYC, Zack come to join Thursday through Sunday. We went and saw all the typical tourist things, including the met; where Eric proposed on the rooftop overlooking Central Park and the Skyline. A trip to remember"
+    "description": "After Eric spent the first part of the week working in NYC, Zack came to join him Thursday through Sunday. We went and saw all the typical tourist things, including the Met; where Eric proposed on the rooftop overlooking Central Park and the Skyline. A trip to remember."
   }
 ]
